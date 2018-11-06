@@ -11,8 +11,6 @@ int main() {
 	int i,o;
 	string name;
 	reservation r; //예약
-	cancel c; //취소
-	example e; //보기
 
 	cout << "***** 한성항공에 오신것을 환영합니다 *****" << endl;
 
@@ -39,7 +37,7 @@ int main() {
 			cin >> o;
 			cout << "이름 입력>>";
 			cin >> name;
-			c.de(i,o,name);
+			r.de(i,o,name);
 			//삭제 안되는거 해결
 		}
 		else if(i==3){

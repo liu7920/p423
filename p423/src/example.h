@@ -31,11 +31,11 @@ public:
 		}
 		cout << "\n12시:	";
 		for(int i=0; i<8; i++){
-			cout << this->str3[i] << "	" ;
+			cout << this->str2[i] << "	" ;
 		}
 		cout << "\n17시:	";
 		for(int i=0; i<8; i++){
-			cout << this->str2[i] << "	" ;
+			cout << this->str3[i] << "	" ;
 		}
 		cout << endl;
 	}
@@ -51,14 +51,14 @@ public:
 		else if(i==2){
 			cout << "12시:	";
 			for(int i=0; i<8; i++){
-				cout << this->str3[i] << "	" ;
+				cout << this->str2[i] << "	" ;
 			}
 			cout << endl;
 		}
 		else if(i==3){
 			cout << "17시:	";
 			for(int i=0; i<8; i++){
-				cout << this->str2[i] << "	" ;
+				cout << this->str3[i] << "	" ;
 			}
 			cout << endl;
 		}
